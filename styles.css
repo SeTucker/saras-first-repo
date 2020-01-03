@@ -1,18 +1,62 @@
+body {
+    margin: 0;
+}
+
+.yoda {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url("BBYoda.jpg");
+    height: 65vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.yoda__content {
+    margin-left: 5%;
+}
+
 h1 {
-    color: red;
+    color: blanchedalmond;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-block-end: 0em;
+    font-size: 4em;
+    margin-top: 0em;
+
+}
+
+h2 {
+    color: azure;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-block-start: 0.5em;
+    font-size: 1em;
+}
+
+button {
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    color: blanchedalmond;
+    text-align: center;
+    border-radius: 20px;
+    border: 2px solid #ffffcc;
+    padding: 5px 15px;
+}
+
+
+.hexagons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    flex-wrap: wrap;
 }
 
 p {
-    color: yellow;
     text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
 }
 
-.pink {
-    color: pink;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+.shape {
+    background-color: black;
 }
-
-#dans {
-    text-decoration: underline;
-}
-
